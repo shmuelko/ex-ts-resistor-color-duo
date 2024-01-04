@@ -3,6 +3,3 @@ export function decodedValue(selectedColors: string[]): number {
 
   return Number(`${colors.indexOf(selectedColors[0])}${colors.indexOf(selectedColors[1])}`)
 }
-
-//   return 2;
-//   integer(colors.indexOf(selected-colors[0])) + integer(colors.indexOf(selected-colors[1]))
